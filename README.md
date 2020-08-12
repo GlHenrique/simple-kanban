@@ -2,11 +2,11 @@
 
 ## Introdução
 
-> Projeto com o intuito de testar os conhecimentos em HTML, CSS3, Javascript!
+> This repository has the purpose of creating a simple Kanban with HTML5 + CSS3 + JS, using the Drag N 'Drop API
 
 ## Ferramentas
 
-> Foi utilizado nesse projeto:
+> Techs:
 - [HTML5](https://github.com/facebook/react)
 - [CSS3](https://github.com/facebook/react)
 - [JS](https://github.com/facebook/react)
@@ -14,18 +14,18 @@
 
 ## Instalação
 
-> A instalação local é muito simples!
+> The local installation is very simple!
 
 ```
 1) git clone https://github.com/GlHenrique/simple-kanban.git
 ```
 
 ```
-2) cd Corebiz-challenge
+2) cd simple-kanban
 ```
 ```
 3) Open index.html
 ```
 
-## Ou se preferir conferir online 😅
+## Or if check online 😅
 
