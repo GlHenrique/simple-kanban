@@ -1,0 +1,93 @@
+:root {
+    --background-color: #130F0D;
+    --board-background: #141316;
+    --board-border: #FD951F11;
+    --board-title: #FD951FCC;
+    --highlight: #FD951F08;
+    --background-card: #1A1A1C;
+    --blue: #1976D2;
+    --green: #43A047;
+    --red: #E53935;
+    --light-green: #4CD13711;
+}
+
+html {
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background-color: var(--background-color);
+    color: white
+}
+
+.boards {
+    display: flex;
+    margin-top: 32px;
+}
+
+.board {
+    background: var(--board-background);
+    border: 1px solid var(--board-border);
+    border-radius: 4px;
+    margin: 16px
+}
+
+.board h3 {
+    padding: 16px;
+    margin: 0;
+    color: var(--board-title);
+}
+
+.dropzone {
+    padding: 16px;
+    min-width: 282px;
+    min-height: 200px;
+}
+
+.card {
+    padding: 16px;
+    box-shadow: 0 2px 2px -1px var(--board-title);
+    width: 250px;
+    margin: 25px 0;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 18px;
+    background: var(--background-card);
+}
+
+.status {
+    width: 30px;
+    height: 8px;
+    background: gray;
+    margin-bottom: 16px;
+    border-radius: 8px;
+}
+
+.blue {
+    background: var(--blue);
+}
+
+.green {
+    background: var(--green);
+}
+
+.red {
+    background: var(--red);
+}
+
+.highlight {
+    background: var(--highlight);
+}
+
+.card .dropzone {
+    transition: 0.4s
+}
+
+.is-dragging {
+    cursor: move;
+    opacity: 0.3;
+}
+
+.is-drag-enter {
+    background: var(--light-green);
+}
