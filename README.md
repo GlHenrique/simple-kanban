@@ -29,3 +29,5 @@
 
 ## Or if check online 😅
 
+https://glhenrique.github.io/simple-kanban/
+
